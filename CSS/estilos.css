@@ -1,0 +1,37 @@
+
+body{
+    margin: 0;
+    background-color:  #224870;
+}
+        .container{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: justify;
+            width: 90%;
+            height: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+            border: 1px solid orange;
+
+        }
+        .izquierda{
+            width: 48%;
+            display: inline;
+            float: left;
+            padding: 10px;
+        }
+        .derecho{
+            width: 48%;
+            float: left;
+            padding: 10px;
+        }
+        .container-absoluto{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+            color: white;
+            padding: 15px;
+            position: absolute;
+            top: 300px;
+            left: 500px;
+            opacity: .5;
+        }
